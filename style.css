@@ -38,27 +38,27 @@ header span {
 
 
 nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+    background: #333;
+    position: fixed;
+}
 
-        display: flex;
-        flex-flow: row;
-        justify-content: center;
+nav a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #fff;
+}
 
-        background: #333;
-    }
-
-    nav a {
-        padding: .5em 2em;
-        text-decoration: none;
-        color: #fff;
-    }
-
-    nav a:hover{
-        background: #666;
-    }
+nav a:hover{
+    background: #666;
+}
 
 section {
     margin: 1em 0;
@@ -86,7 +86,7 @@ section ul {
     background: rgba(204, 204, 204, 0.5);
     padding: 1em;
     border-radius: 1em;
-    box-shadow: 60px -16px teal
+    box-shadow: 6px -6px teal
 }
 
 #products article img {
